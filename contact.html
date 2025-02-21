@@ -35,25 +35,12 @@
     </nav>
 
     <!-- Contact Us Section -->
-    <main class="container mx-auto px-4 py-16 flex-grow">
-        <h1 class="text-3xl font-bold text-center mb-8 text-secondary">Contact Me</h1>
-        <form class="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md">
-            <div class="mb-4">
-                <label for="name" class="block text-gray-700 mb-2">Name</label>
-                <input type="text" id="name" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Your Name" required>
-            </div>
-            <div class="mb-4">
-                <label for="email" class="block text-gray-700 mb-2">Email</label>
-                <input type="email" id="email" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Your Email" required>
-            </div>
-            <div class="mb-4">
-                <label for="message" class="block text-gray-700 mb-2">Message</label>
-                <textarea id="message" rows="4" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Your Message" required></textarea>
-            </div>
-            <button type="submit" class="w-full bg-primary text-white py-2 rounded-md hover:bg-blue-700 transition">
-                Send Message
-            </button>
-        </form>
+    <main class="container mx-auto py-0     flex-grow">
+        <!-- Calendly inline widget -->
+        <div class="max-w-md mx-auto mt-8">
+            <div class="calendly-inline-widget" data-url="https://calendly.com/gabriel-g-concepcion/30min" style="min-width:320px;height:700px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        </div>
     </main>
 
     <!-- Footer -->
