@@ -60,155 +60,183 @@
 </head>
 <body class="bg-gray-900 text-gray-100 dark:bg-gray-900 dark:text-gray-100 flex flex-col min-h-screen">
     <!-- Navigation -->
-    <nav class="bg-gray-800 shadow-md">
-        <div class="container mx-auto px-4 py-3 flex flex-col md:flex-row justify-between items-center">
-            <a href="./index.html" class="text-2xl font-bold text-primary-400 hover:text-primary-300 transition mb-4 md:mb-0">PHWebTech.com</a>
-            <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 text-center">
-                <a href="./index.html" class="text-gray-300 hover:text-primary-400 transition block md:inline">Home</a>
-                <a href="./projects.html" class="text-primary-400 hover:text-primary-300 underline block md:inline">Projects</a>
-                <a href="./contact.html" class="text-gray-300 hover:text-primary-400 transition block md:inline">Contact Us</a>
-            </div>
+    <nav class="bg-black text-white py-4 shadow-md">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+          <a href="./index.html" class="text-2xl font-bold tracking-wide">
+            <span class="text-blue-400">PH</span>WebTech
+          </a>
+          <div class="hidden md:flex space-x-8">
+            <a href="./index.html" class="hover:text-blue-400 transition">Home</a>
+            <a href="./projects.html" class="hover:text-blue-400 transition">Projects</a>
+            <a href="./contact.html" class="hover:text-blue-400 transition">Contact</a>
+            <a href="./contact.html"
+              class="ml-4 bg-blue-600 hover:bg-blue-500 text-white font-semibold px-4 py-2 rounded-md transition">
+              Hire Me →
+            </a>
+          </div>
         </div>
-    </nav>
+      </nav>
 
     <!-- Projects Section -->
-    <main class="container mx-auto px-4 py-0 flex-grow bg-gray-900">
-        <section class="container mx-auto px-4 py-8 bg-gray-900">
-            <h1 class="text-4xl font-bold text-center mb-12 text-primary-400">Tailored Digital Solutions for Small & Medium Businesses</h1>
-            
-            <p class="text-center text-xl mb-8 text-gray-300">We specialize in building scalable, high-performance applications that help small and medium businesses in Metro Manila, Philippines streamline operations, boost efficiency, and increase revenue.</p>
-
-            <div class="flex justify-center items-center col-span-full my-8">
-                <a href="/contact.html" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full transition-colors shadow-lg flex items-center space-x-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    <span>Let's Build Your Idea!</span>
-                </a>
+    <section class="bg-[#E8E1D5] py-20 px-6">
+        <div class="container mx-auto text-center">
+          <h1 class="text-4xl md:text-5xl font-extrabold text-black mb-8">
+            Tailored Digital Solutions for Small & Medium Businesses
+          </h1>
+          <p class="text-lg md:text-xl text-gray-800 max-w-3xl mx-auto mb-12">
+            We build scalable, high-performance applications that help small and medium
+            businesses in Metro Manila streamline operations, boost efficiency, and
+            increase revenue.
+          </p>
+      
+          <div class="flex justify-center mb-16">
+            <a href="/contact.html"
+              class="bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 px-6 rounded-md flex items-center space-x-2 shadow-md transition">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span>Let's Build Your Idea!</span>
+            </a>
+          </div>
+      
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 text-left">
+            <!-- Card -->
+            <div class="bg-white border border-gray-300 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+              <div class="flex items-center mb-4">
+                <span class="text-3xl mr-4">🛒</span>
+                <h2 class="text-2xl font-bold text-black">Online Store & E-Commerce Solutions</h2>
+              </div>
+              <p class="text-gray-700 mb-3 italic">Sell More, Faster & Smarter</p>
+              <p class="text-gray-700">We create secure, scalable, and mobile-friendly e-commerce platforms that drive sales.</p>
+              <ul class="list-disc list-inside mt-4 text-gray-800">
+                <li>Custom-built storefronts with seamless checkout</li>
+                <li>Multi-payment gateway integration (GCash, PayPal, credit cards)</li>
+                <li>Inventory and order management</li>
+              </ul>
+              <p class="mt-4 font-semibold text-blue-600">
+                Perfect for: Entrepreneurs, retail shops, and brands expanding online.
+              </p>
             </div>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Online Store & E-Commerce Solutions -->
-                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                    <div class="flex items-center mb-4">
-                        <span class="text-3xl mr-4">🛒</span>
-                        <h2 class="text-2xl font-semibold text-primary-400">Online Store & E-Commerce Solutions</h2>
-                    </div>
-                    <p class="mb-4 text-gray-300">Sell More, Faster & Smarter</p>
-                    <p class="text-gray-300">We create secure, scalable, and mobile-friendly e-commerce platforms that drive sales.</p>
-                    <ul class="list-disc list-inside mt-4 text-green-600">
-                        <li>Custom-built storefronts with seamless checkout</li>
-                        <li>Multi-payment gateway integration (Gcash, PayPal, credit cards)</li>
-                        <li>Inventory and order management</li>
-                    </ul>
-                    <p class="mt-4 font-bold text-blue-600">Perfect for: Entrepreneurs, retail shops, and brands looking to expand online.</p>
-                </div>
-
-                <!-- Order, Inventory, & Staff Management System -->
-                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                    <div class="flex items-center mb-4">
-                        <span class="text-3xl mr-4">📦</span>
-                        <h2 class="text-2xl font-semibold text-primary-400">Order, Inventory, & Staff Management System</h2>
-                    </div>
-                    <p class="mb-4 text-gray-300">Effortless Business Operations in One Dashboard</p>
-                    <p class="text-gray-300">Manage sales, stock levels, and employees in one place with a cloud-based system.</p>
-                    <ul class="list-disc list-inside mt-4 text-green-600">
-                        <li>Real-time inventory tracking</li>
-                        <li>Automated low-stock alerts & purchase order generation</li>
-                        <li>Role-based staff access & activity logs</li>
-                    </ul>
-                    <p class="mt-4 font-bold text-blue-600">Perfect for: Restaurants, cafes, warehouses, and retail businesses.</p>
-                </div>
-
-                <!-- Ticketing System -->
-                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                    <div class="flex items-center mb-4">
-                        <span class="text-3xl mr-4">🎫</span>
-                        <h2 class="text-2xl font-semibold text-primary-400">Ticketing System</h2>
-                    </div>
-                    <p class="mb-4 text-gray-300">Sell & Validate Tickets With Ease</p>
-                    <p class="text-gray-300">A complete ticket booking and validation system for events and travel.</p>
-                    <ul class="list-disc list-inside mt-4 text-green-600">
-                        <li>QR-code-based digital tickets</li>
-                        <li>Automated email confirmations & reminders</li>
-                        <li>Fraud prevention & secure access control</li>
-                    </ul>
-                    <p class="mt-4 font-bold text-blue-600">Perfect for: Concerts, festivals, bus operators, and event organizers.</p>
-                </div>
-
-                <!-- Tour Agency Booking System -->
-                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                    <div class="flex items-center mb-4">
-                        <span class="text-3xl mr-4">🏝</span>
-                        <h2 class="text-2xl font-semibold text-primary-400">Tour Agency Booking System</h2>
-                    </div>
-                    <p class="mb-4 text-gray-300">Streamline Bookings & Boost Tourism Revenue</p>
-                    <p class="text-gray-300">An all-in-one system for managing tour packages, bookings, and customer inquiries.</p>
-                    <ul class="list-disc list-inside mt-4 text-green-600">
-                        <li>Online reservations with live availability</li>
-                        <li>Payment gateway & invoicing integration</li>
-                        <li>Customer profiles & booking history</li>
-                    </ul>
-                    <p class="mt-4 font-bold text-blue-600">Perfect for: Tour agencies, travel companies, and local guides.</p>
-                </div>
-
-                <!-- Customer Wallet System -->
-                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                    <div class="flex items-center mb-4">
-                        <span class="text-3xl mr-4">💳</span>
-                        <h2 class="text-2xl font-semibold text-primary-400">Customer Wallet System</h2>
-                    </div>
-                    <p class="mb-4 text-gray-300">Secure & Fast Digital Payments for Your Business</p>
-                    <p class="text-gray-300">Offer a cashless experience with a branded customer wallet.</p>
-                    <ul class="list-disc list-inside mt-4 text-green-600">
-                        <li>QR-code-based payments & balance tracking</li>
-                        <li>Loyalty points & rewards integration</li>
-                        <li>Secure transactions with fraud detection</li>
-                    </ul>
-                    <p class="mt-4 font-bold text-blue-600">Perfect for: Cafes, retailers, fintech startups, and loyalty programs.</p>
-                </div>
-
-                <!-- Affiliate & Referral Management System -->
-                <div class="bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                    <div class="flex items-center mb-4">
-                        <span class="text-3xl mr-4">🔗</span>
-                        <h2 class="text-2xl font-semibold text-primary-400">Affiliate & Referral Management System</h2>
-                    </div>
-                    <p class="mb-4 text-gray-300">Turn Customers into Brand Ambassadors</p>
-                    <p class="text-gray-300">An automated referral system that tracks commissions and payouts.</p>
-                    <ul class="list-disc list-inside mt-4 text-green-600">
-                        <li>Unique referral links & codes</li>
-                        <li>Real-time commission tracking</li>
-                        <li>Tiered affiliate rewards system</li>
-                    </ul>
-                    <p class="mt-4 font-bold text-blue-600">Perfect for: Online businesses, digital products, and e-commerce brands.</p>
-                </div>
+      
+            <!-- Repeat the same structure for other cards -->
+            <div class="bg-white border border-gray-300 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+              <div class="flex items-center mb-4">
+                <span class="text-3xl mr-4">📦</span>
+                <h2 class="text-2xl font-bold text-black">Order, Inventory, & Staff Management System</h2>
+              </div>
+              <p class="text-gray-700 mb-3 italic">Effortless Business Operations in One Dashboard</p>
+              <p class="text-gray-700">Manage sales, stock levels, and employees in one place with a cloud-based system.</p>
+              <ul class="list-disc list-inside mt-4 text-gray-800">
+                <li>Real-time inventory tracking</li>
+                <li>Automated low-stock alerts & purchase order generation</li>
+                <li>Role-based staff access & activity logs</li>
+              </ul>
+              <p class="mt-4 font-semibold text-blue-600">
+                Perfect for: Restaurants, cafes, warehouses, and retail businesses.
+              </p>
+            </div>
+      
+            <div class="bg-white border border-gray-300 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+              <div class="flex items-center mb-4">
+                <span class="text-3xl mr-4">🎫</span>
+                <h2 class="text-2xl font-bold text-black">Ticketing System</h2>
+              </div>
+              <p class="text-gray-700 mb-3 italic">Sell & Validate Tickets With Ease</p>
+              <p class="text-gray-700">A complete ticket booking and validation system for events and travel.</p>
+              <ul class="list-disc list-inside mt-4 text-gray-800">
+                <li>QR-code-based digital tickets</li>
+                <li>Automated email confirmations & reminders</li>
+                <li>Fraud prevention & secure access control</li>
+              </ul>
+              <p class="mt-4 font-semibold text-blue-600">
+                Perfect for: Concerts, festivals, bus operators, and event organizers.
+              </p>
             </div>
 
-            <div class="text-center mt-16">
-                <h3 class="text-3xl font-bold mb-6 text-primary-400">🚀 Need a custom solution for your business?</h3>
-                <p class="text-xl mb-8 text-gray-300">Let's discuss your requirements and build the perfect system for you!</p>
-                <a href="/contact.html" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full transition-colors">
-                    Schedule a Consultation
+            <!-- Tour Agency Booking System -->
+            <div class="bg-white border border-gray-300 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+              <div class="flex items-center mb-4">
+                <span class="text-3xl mr-4">🏝</span>
+                <h2 class="text-2xl font-bold text-black">Tour Agency Booking System</h2>
+              </div>
+              <p class="text-gray-700 mb-3 italic">Streamline Bookings & Boost Tourism Revenue</p>
+              <p class="text-gray-700">An all-in-one system for managing tour packages, bookings, and customer inquiries.</p>
+              <ul class="list-disc list-inside mt-4 text-gray-800">
+                <li>Online reservations with live availability</li>
+                <li>Payment gateway & invoicing integration</li>
+                <li>Customer profiles & booking history</li>
+              </ul>
+              <p class="mt-4 font-semibold text-blue-600">
+                Perfect for: Tour agencies, travel companies, and local guides.
+              </p>
+            </div>
+
+            <!-- Customer Wallet System -->
+            <div class="bg-white border border-gray-300 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+              <div class="flex items-center mb-4">
+                <span class="text-3xl mr-4">💳</span>
+                <h2 class="text-2xl font-bold text-black">Customer Wallet System</h2>
+              </div>
+              <p class="text-gray-700 mb-3 italic">Secure & Fast Digital Payments for Your Business</p>
+              <p class="text-gray-700">Offer a cashless experience with a branded customer wallet.</p>
+              <ul class="list-disc list-inside mt-4 text-gray-800">
+                <li>QR-code-based payments & balance tracking</li>
+                <li>Loyalty points & rewards integration</li>
+                <li>Secure transactions with fraud detection</li>
+              </ul>
+              <p class="mt-4 font-semibold text-blue-600">
+                Perfect for: Cafes, retailers, fintech startups, and loyalty programs.
+              </p>
+            </div>
+
+            <!-- Affiliate & Referral Management System -->
+            <div class="bg-white border border-gray-300 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+              <div class="flex items-center mb-4">
+                <span class="text-3xl mr-4">🔗</span>
+                <h2 class="text-2xl font-bold text-black">Affiliate & Referral Management System</h2>
+              </div>
+              <p class="text-gray-700 mb-3 italic">Turn Customers into Brand Ambassadors</p>
+              <p class="text-gray-700">An automated referral system that tracks commissions and payouts.</p>
+              <ul class="list-disc list-inside mt-4 text-gray-800">
+                <li>Unique referral links & codes</li>
+                <li>Real-time commission tracking</li>
+                <li>Tiered affiliate rewards system</li>
+              </ul>
+              <p class="mt-4 font-semibold text-blue-600">
+                Perfect for: Online businesses, digital products, and e-commerce brands.
+              </p>
+            </div>
+            </div>
+
+            <div class="text-center mt-20">
+                <h3 class="text-3xl font-extrabold mb-4 text-black">
+                  🚀 Need a custom solution for your business?
+                </h3>
+                <p class="text-lg text-gray-800 mb-8">
+                  Let's discuss your requirements and build the perfect system for you!
+                </p>
+                <a href="/contact.html"
+                  class="bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 px-6 rounded-md transition shadow-md">
+                  Schedule a Consultation
                 </a>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-gray-300 py-6">
-        <div class="container mx-auto px-4 text-center">
-            <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
-                <div class="flex space-x-4">
-                    <a href="index.html" class="text-gray-400 hover:text-primary transition-colors">Home</a>
-                    <a href="projects.html" class="text-gray-400 hover:text-primary transition-colors">Projects</a>
-                    <a href="contact.html" class="text-gray-400 hover:text-primary transition-colors">Contact</a>
-                </div>
-                <div class="text-sm">
-                    &copy; 2024 PHWebTech. All Rights Reserved.
-                </div>
-            </div>
+    <footer class="bg-black text-gray-300 py-6">
+        <div class="container mx-auto px-4 text-center flex flex-col md:flex-row justify-between items-center">
+          <div class="space-x-6 mb-4 md:mb-0">
+            <a href="index.html" class="hover:text-blue-400 transition">Home</a>
+            <a href="projects.html" class="hover:text-blue-400 transition">Projects</a>
+            <a href="contact.html" class="hover:text-blue-400 transition">Contact</a>
+          </div>
+          <div class="text-sm">
+            &copy; 2025 PHWebTech. All Rights Reserved.
+          </div>
         </div>
-    </footer>
+      </footer>
 </body>
 </html>
