@@ -18,5 +18,9 @@ All styling is handled via Tailwind CSS loaded from the official CDN, with addit
 - **Analytics & tracking**: The site currently loads Ahrefs analytics and Google Tag Manager snippets from CDNs. Update or remove these scripts if replicating the site in another environment.
 - **SEO metadata**: Modify the `<meta>` tags at the top of each page to align with your deployment domain and targeted keywords.
 
+## Continuous Deployment
+- **GitHub Pages workflow**: The workflow at `.github/workflows/gh-pages.yml` publishes the static site whenever commits land on `main` or when triggered manually. No build step is required; the action simply uploads the repository root as the deployable artifact and then runs the GitHub Pages deployment action.
+- **First-time setup**: In the repository settings on GitHub, enable GitHub Pages with the "GitHub Actions" source. Subsequent pushes to `main` will update the live site automatically.
+
 ## Contributing
 For tweaks or enhancements, fork the repository and open a pull request detailing the proposed change. Given the static nature of the project, keep modifications scoped and easy to verify via manual inspection.
