@@ -104,7 +104,7 @@
               class="bg-black text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-600 transition">
               Contact Us
             </a>
-            <a href="./projects.html"
+            <a href="#projects" onclick="scrollToProjects(event)"
               class="bg-white text-black px-6 py-3 rounded-md border border-black font-semibold hover:bg-gray-100 transition">
               See Our Work
             </a>
@@ -116,7 +116,7 @@
         </div>
 
         <!-- Publicly Accessible Projects -->
-        <section class="bg-[#E8E1D5] py-20">
+        <section id="projects" class="bg-[#E8E1D5] py-20">
             <div class="container mx-auto">
               <h2 class="text-4xl font-extrabold text-center mb-12 text-black">
                 Publicly Accessible Projects
@@ -243,5 +243,14 @@
           </div>
         </div>
       </footer>
+    <script>
+      function scrollToProjects(event) {
+        event.preventDefault();
+        const section = document.getElementById('projects');
+        if (section) {
+          section.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    </script>
 </body>
 </html>
